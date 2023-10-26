@@ -13,5 +13,10 @@ namespace UI {
     public FormIniciarSesion() {
       InitializeComponent();
     }
-  }
+
+        private void FormIniciarSesion_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
