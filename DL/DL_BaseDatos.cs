@@ -34,7 +34,7 @@ namespace DL {
     public DataTable DevolverTabla(string nombreTabla) {
       CargarTabla(nombreTabla);
       DataTable dt = TempDB.Tables[nombreTabla];
-      bool coso= dt.Rows.Find(1)[2] == "asd";
+      bool coso= dt.Rows.Find(1)[2].ToString() == "asd";
       return dt;
     }
 

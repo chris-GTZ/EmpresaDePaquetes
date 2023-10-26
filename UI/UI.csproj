@@ -89,13 +89,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DL\DL.csproj">
-      <Project>{eb042d78-29ed-4844-adb8-9de4b1a8d2cd}</Project>
-      <Name>DL</Name>
-    </ProjectReference>
+    <Content Include="Falta.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Falta.txt" />
+    <ProjectReference Include="..\DLL\BLL.csproj">
+      <Project>{76a909e4-eac7-4e95-8c08-56b389be3f18}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

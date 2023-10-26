@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace DLL
 {
-    public class Class1
+    public class BLL_Usuarios
     {
+        public void VerificarUsuario(string usuario, string contraseña)
+        {
+
+        }
+
+
     }
 }
